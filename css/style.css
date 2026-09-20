@@ -90,8 +90,7 @@ A  border of 2px on the bottom and 5px on the left;
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom-width: 2px;
-    border-left-width: 5px;
+    border-width: 0 0 2px 5px;
 }   
 
 /*
@@ -107,8 +106,7 @@ Use #C4C4C4 for the heading and paragraph text
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border-width: 2px 5px 0 0;
 }
 
 .blue h2,
@@ -129,8 +127,7 @@ Use #707070 for the paragraph text
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom-width: 2px;
-    border-left-width: 5px;
+    border-width: 0 0 2px 5px;
 }
 
 .yellow p {
@@ -148,8 +145,7 @@ A  border of 5px on the right and 2px on the top;
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border-width: 2px 5px 0 0;
 }
 
 /*
